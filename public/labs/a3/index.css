@@ -68,6 +68,21 @@ p#id-selector-2 {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
 }
+.dimension-portrait {
+  width: 75px;
+  height: 100px;
+}
+
+.dimension-landscape {
+  width: 100px;
+  height: 75px;
+}
+
+.dimension-square {
+  width: 75px;
+  height: 75px;
+}
+
 
 .rounded-corners-bottom {
   border-bottom-left-radius: 40px;
