@@ -248,6 +248,50 @@ p#id-selector-2 {
   height: 200px;
   color: white;
 }
+.animation-keyframes {
+  position: relative;
+  top: 0px;
+  animation-duration: 7s;
+  animation-name: slidein;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  color: white;
+}
+
+@keyframes slidein {
+  from {
+    position: relative;
+    top: 0px;
+    font-size: 100%;
+    margin-left: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    color: black;
+  }
+  50% {
+    position: relative;
+    top: -200px;
+    font-size: 300%;
+    margin-left: 25%;
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    color: white;
+  }
+
+  to {
+    position: relative;
+    top: 0px;
+    font-size: 100%;
+    margin-left: 0%;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+  }
+}
 
 
 
