@@ -313,6 +313,17 @@ p#id-selector-2 {
   background-color: red;
   color: white;
 }
+.flex-container {
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-around;
+  justify-content: space-between;
+  justify-content: end;
+  */
+}
 
 
 
