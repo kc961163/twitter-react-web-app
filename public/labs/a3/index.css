@@ -230,7 +230,11 @@ p#id-selector-2 {
   background-color: green;
   color: white;
 }
-
+.gradients-linear {
+  background: linear-gradient(yellow, red);
+  width: 200px;
+  height: 200px;
+}
 
 
 
