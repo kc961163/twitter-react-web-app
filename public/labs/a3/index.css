@@ -340,16 +340,18 @@ p#id-selector-2 {
   flex-basis: 100%;
 }
 
-@media (min-width: 0px)
-and (max-width: 600px) {
-  /*body {*/
-  /*  background-color: yellow;*/
-  /*}*/
-  .media-query {
-    background-color: red;
+@media (min-width: 600px)
+and (max-width: 1200px) {
+  body {
+    background-color: blue;
     color: white;
   }
+  .media-query {
+    background-color: yellow;
+    color: black;
+  }
 }
+
 
 
 
